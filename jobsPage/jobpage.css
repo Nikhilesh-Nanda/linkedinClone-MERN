@@ -1,0 +1,177 @@
+.mainComp{
+    display: flex;
+}
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    letter-spacing: 1px;
+}
+.leftOne{
+    height: 400px;
+    width: 350px;
+    margin-top: 15px;
+    margin-left: 10px;
+    border: 0px solid black;
+    background-color: white;
+    border-radius: 10px;
+}
+.rightOne{
+    height: 1500px;
+    width: 900px;
+    border: 0px solid black;
+    margin-top: 15px;
+    margin-left: 15px;
+    background-color: white;
+    border-radius: 10px;
+}
+.rightTitle{
+    margin-left: 20px;
+}
+
+.jobTile {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  margin-bottom: 15px;
+  background-color: #fff;
+  width: 800px;
+  height: 200px;
+  margin-left: 20px;
+  box-shadow: 10px 10px 5px lightgrey;
+  transition: background-color 0.3s ease;
+}
+
+.jobTile:hover {
+  background-color: lightgrey;
+  cursor: pointer;
+}
+
+.jobInfo {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  flex: 1; /* take available width */
+  min-width: 0; /* fix text overflow issues */
+}
+
+.jobLogo {
+  width: 60px;
+  height: 60px;
+  object-fit: contain;
+  border-radius: 8px;
+  flex-shrink: 0;
+}
+
+.jobText {
+  min-width: 0; /* for text truncation if needed */
+}
+
+.jobC {
+  margin: 0 0 5px 0;
+  font-size: 1.1em;
+  color: #222;
+}
+
+.jobDesc {
+  margin: 0;
+  color: #555;
+  line-height: 1.3;
+}
+
+.jobActions {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+}
+
+.jobActions button {
+  cursor: pointer;
+  padding: 8px 14px;
+  border: none;
+  border-radius: 4px;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+}
+
+.jobActions .view {
+  background-color: #e1e7f0;
+  color: #333;
+}
+
+.jobActions .view:hover {
+  background-color: #cbd4e6;
+}
+
+.jobActions .apply {
+  background-color: #0a66c2; /* LinkedIn blue */
+  color: white;
+}
+
+.jobActions .apply:hover {
+  background-color: #084d9c;
+}
+
+.view{
+    margin-left: 150px;
+    margin-top: 20px;
+    border: 0px;
+    border-radius: 20px;
+    width: 100px;
+    height: 50px;
+    color: white;
+    background-color: #0066CC;
+}
+.view:hover{
+    background-color: lightskyblue;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.firstleftOption{
+    display: block;
+    width: 330px;
+    height: 50px;
+    font-size: 20px;
+    padding: 10px;
+    border-top: 1px solid lightgrey;
+    border-bottom: 1px solid lightgrey;
+    border-radius: 9px ;
+}
+.leftOption{
+    display: block;
+    width: 330px;
+    height: 50px;
+    padding: 10px;
+    font-size: 20px;
+    border-top: 1px solid lightgrey;
+    border-bottom: 1px solid lightgrey;
+}
+.firstleftOption:hover{
+    background-color: lightgrey;
+    cursor: pointer;
+    text-decoration: underline;
+}
+.leftOption:hover{
+    background-color: lightgrey;
+    cursor: pointer;
+    text-decoration: underline;
+}
+.apply{
+     margin-left: 00px;
+    
+    margin-top: 20px;
+    border: 0px;
+    border-radius: 20px;
+    width: 100px;
+    height: 50px;
+    color: white;
+    background-color: #0066CC;
+}
+.apply:hover{
+    
+    background-color: lightskyblue;
+    text-decoration: underline;
+    cursor: pointer;
+}
