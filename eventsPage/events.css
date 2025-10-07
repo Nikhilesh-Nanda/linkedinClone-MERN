@@ -1,0 +1,86 @@
+.mainComp{
+    display: flex;
+}
+.leftOne{
+    border: 0px solid black;
+    width: 400px;
+    height: 3500px;
+    margin-top: 20px;
+    background-color: white;
+    border-radius: 10px;
+}
+.rightOne{
+    border: 0px solid black;
+    width: 800px;
+    margin-left: 20px;
+    height: 2200px;
+    margin-top: 20px;
+    background-color: white;
+    border-radius: 10px;
+}
+.leftHead{
+    margin-left: 20px;
+}
+.rightHead{
+    margin-left: 20px;
+}  
+.uEventTile{
+    display: block;
+    width: 370px;
+    height: 250px;
+    padding: 10px;
+    margin-left: 2px;
+    border-top: 1px solid lightgrey;
+    border-bottom: 1px solid lightgrey;
+}
+.dateU{
+    margin-left: 0px;
+}
+.descU{
+    margin-left: 0px;
+}
+.Rbutton{
+    margin-left: 35%;
+    border: 0px;
+    border-radius: 10px;
+    height: 50px;
+    width: 100px;
+}
+.titleU{
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+}
+.titleU:hover{
+    text-decoration: underline;
+}
+.Rbutton:hover{
+    cursor: pointer;
+    background-color: lightgray;
+}
+.oEventTile{
+    display: block;
+    width: 750px;
+    height: 250px;
+    padding: 10px;
+    margin-left: 2px;
+    border-top: 1px solid lightgrey;
+    border-bottom: 1px solid lightgrey;
+}
+.titleO{
+    margin-left: 28%;
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+}
+.RObutton{
+    margin-left: 45%;
+    border: 0px;
+    border-radius: 10px;
+    height: 50px;
+    width: 100px;
+}
+.RObutton:hover{
+    cursor: pointer;
+    background-color: lightgray;
+}
