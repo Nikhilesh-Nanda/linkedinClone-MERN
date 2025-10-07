@@ -1,0 +1,70 @@
+/* Container for all job items */
+.mainComp {
+  width: 1210px;
+  margin-top: 5px;
+  padding: 0 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  height: 1500px;
+  background-color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  border-radius: 10px;
+}
+/* Individual job card */
+.myJobItem {
+  background-color: #fff;
+  border-radius: 12px;
+  padding: 18px 22px;
+  box-shadow: 20px 20px 10px rgba(0, 0, 0, 0.08);
+  cursor: pointer;
+  width: 800px;
+  height: 220px;
+  margin-left: 180px;
+  border: 1px solid lightgrey;
+  margin-top: 20px;
+}
+
+.myJobItem:hover {
+  box-shadow: 0 6px 30px rgba(0, 0, 0, 0.12);
+}
+
+/* Job title */
+.myJobItem h3 {
+  margin: 0 0 8px 0;
+  font-size: 1.3rem;
+  color: #173353;
+}
+
+/* Company name */
+.myJobItem p {
+  margin: 0;
+  color: #4a5568;
+  font-size: 1rem;
+  letter-spacing: 0.02em;
+}
+
+/* Loading and error messages */
+.mainComp p {
+  text-align: center;
+  font-size: 1.1rem;
+  color: #666;
+  padding: 40px 0;
+}
+
+/* Error message styling */
+.error {
+  color: #e53e3e;
+  font-weight: 600;
+}
+h2{
+    margin-left: 40%;
+}
+.jobType{
+    margin-left: 45%;
+}
+/* Responsive tweaks */
+
+p{
+    margin-top: 0px;
+}
