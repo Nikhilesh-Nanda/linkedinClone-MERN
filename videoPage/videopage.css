@@ -1,0 +1,108 @@
+.mainComp{
+    display: flex;
+}
+.leftOne{
+    width: 260px;
+    height: 350px;
+    border: 0px solid black;
+    margin-top: 20px;
+    margin-left: 5px;
+    background-color: white;
+    border-radius: 10px;
+}
+.rightOne{
+    width: 1000px;
+    height: 2000px;
+    border: 0px solid black;
+    margin-top: 20px;
+    margin-left: 15px;
+    background-color: white;
+    border-radius: 10px;
+}
+.leftHead{
+    margin-left: 15px;
+    font-size: 25px;
+}
+.rightHead{
+    margin-left: 15px;
+    font-size: 25px;
+}
+.leftOption{
+    display: block;
+    height: 50px;
+    width:355px;
+    margin-left: 0px;
+    font-size: 18px;
+    padding: 10px;
+    border-top: 1px solid lightgrey;
+    border-bottom: 1px solid lightgrey;
+}
+.leftOption:hover{
+    background-color: lightgrey;
+    cursor: pointer;
+    text-decoration: underline;
+}
+.videoTile{
+    border: 2px solid lightgrey;
+    width: 800px;
+    height: 540px;
+    margin-left: 80px;
+    box-shadow: 10px 10px 10px lightgrey;
+    border-radius: 10px;
+}
+.videoTile:hover{
+    background-color: lightgrey;
+    cursor:pointer
+}
+.firstVideo{
+    margin-left: 40px;
+    margin-top: 60px;
+}
+.videoDesc{
+    font-size: 20px;
+    margin-left: 30px;
+}
+.secondVideo{
+    border: 0px;
+    margin-left: 40px;
+    margin-top: 60px;
+}
+.secondvideoTile{
+    border: 2px solid lightgrey;
+    width: 800px;
+    height: 540px;
+    margin-left: 80px;
+    margin-top: 20px;
+    box-shadow: 10px 10px 10px lightgrey;
+    border-radius: 10px;
+}
+.secondvideoTile:hover{
+    background-color: lightgrey;
+    cursor:pointer
+}
+.secondvideoDesc{
+    margin-left:15%;
+    font-size: 20px;
+}
+.thirdvideoTile{
+    border: 2px solid lightgrey;
+    width: 800px;
+    height: 540px;
+    margin-left: 80px;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px lightgrey;
+}
+
+.thirdvideoTile:hover{
+    background-color: lightgrey;
+    cursor:pointer
+}
+.thirdvideoDesc{
+     font-size: 20px;
+    margin-left:80px;
+}
+.thirdVideo{
+    margin-left: 40px;
+    margin-top: 60px;
+}
