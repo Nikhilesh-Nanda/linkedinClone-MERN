@@ -1,0 +1,351 @@
+.container {
+  display: flex;
+  align-items: flex-start; /* Optional: aligns items to the top */
+  gap: 4px; /* Optional: controls space between the boxes */
+}
+
+.leftOne {
+  width: 400px;
+  height: 400px;
+  border: 2px solid lightgrey;
+  background-color: white;
+  margin-top: 10px;
+  border-radius: 10px;
+}
+.commentButton {
+  background-color: white;
+  border: 0px;
+  width: 200px;
+  font-size: 20px;
+  margin-left: 60px;
+  cursor:pointer;
+}
+.commentButton:hover {
+  background-color: lightgrey;
+}
+.bottomPostSection {
+  display: flex;
+  height: 50px;
+  border-top: 1px solid lightgrey;
+  width: 800px;
+  margin-left: 10px;
+  margin-top: 80px;
+}
+
+.shareButton {
+  background-color: white;
+  border: 0px;
+  width: 200px;
+  font-size: 20px;
+  margin-left: 60px;
+  cursor:pointer;
+}
+.shareButton:hover {
+  background-color: lightgrey;
+}
+.likeButton {
+  background-color: white;
+  border: 0px;
+  width: 200px;
+  font-size: 20px;
+  margin-left: 30px;
+  cursor: pointer;
+}
+.likeButton:hover {
+  background-color: lightgrey;
+}
+.rightOne {
+  border-radius: 10px;
+  width: 850px;
+  height: 4800px;
+  border: 2px solid lightgrey;
+  background-color: white;
+  margin-top: 10px;
+  margin-left: 71px;
+}
+.feedPost {
+  display: flex;
+  flex-direction: column; /* Stack elements vertically */
+  align-items: flex-start; /* Align everything to the left */
+  width: 830px;
+  margin-left: 6px;
+  border-bottom: 1px solid lightgrey;
+  margin-bottom: 10px;
+}
+.feedDp {
+  height: 60px;
+  border-radius: 50%;
+  margin-left: 0px;
+  margin-top: 4px;
+  margin-bottom: 10px;
+  border: 2px solid black;
+}
+.feedName {
+  display: block;
+  font-size: 22px;
+  margin-left: 6px;
+  margin-top: 5px;
+  display: inline;
+}
+.feedName:hover{
+  text-decoration: underline;
+  cursor: pointer;
+}
+.dp-related {
+  display: flex;
+  height: 80px;
+  width: 500px;
+}
+.userHeadline {
+  font-size: 12px;
+  margin-left: 0px;
+  margin-top: 2px;
+}
+.post-section {
+  display: flex;
+  flex-wrap: wrap;
+  height: 500px;
+  float: left;
+  margin-top: 0px;
+  justify-content: flex-start;
+}
+.feedTime {
+  margin-left: 0px;
+  margin-top: 45px;
+}
+.feedText {
+  text-align: left;
+  margin-left: 0px;
+  font-size: 17px;
+  padding: 10px;
+  margin-top: 0px;
+}
+.feedPostImg {
+  height: 470px;
+  width: 830px;
+  margin-top: 2px;
+  margin-left: 0px;
+  padding-left: 0px;
+}
+.myDp {
+  height: 100px;
+  margin-left: 2px;
+}
+.dpRight {
+  background-color: lightgrey;
+  border-radius: 5px;
+  width: 270px;
+  height: 100px;
+  margin-top: 6px;
+}
+.dpLeftSection {
+  display: flex;
+}
+.myname {
+  margin-top: 0px;
+  margin-bottom: 10px;
+  margin-left: 60px;
+  font-size: 22px;
+  color: black;
+  text-decoration: none;
+}
+.myname:hover {
+  text-decoration-line: underline;
+  cursor: pointer;
+}
+.headline {
+  margin-left: 5px;
+  margin-top: 0px;
+  font-size: 14px;
+}
+.userBio {
+  margin-left: 0px;
+  padding: 5px;
+  padding: 15px;
+}
+.MoreOptions {
+  margin-top: 10px;              /* Space above options */
+  width: 112%;                   /* Match parent/leftOne width if possible */
+  background: #f6fafd;
+  border-radius: 10px;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.07);
+  padding: 14px 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 11px;     
+  margin-left: 2px;             /* Space between options */
+}
+
+.option {
+  font-size: 15px;
+  font-weight: 500;
+  padding: 5px 0;
+  cursor: pointer;
+  transition: background 0.15s;
+}
+
+.option:hover {
+  background:lightgrey;
+  border-radius: 7px;
+  text-decoration: underline;
+}
+.sidebarContainer {
+  display: flex;
+  flex-direction: column;
+  width: 330px;       /* Adjust to match leftOne if needed */
+}
+.loadingEffect{
+  margin-left: 45%;
+}
+.newPostSection{
+   display: flex;
+  flex-direction: column; /* Stack elements vertically */
+  align-items: flex-start; /* Align everything to the left */
+  width: 830px;
+  margin-left: 6px;
+  border-bottom: 1px solid lightgrey;
+  height: 240px;
+  margin-bottom: 10px;
+}
+.newPostDp{
+  
+  height: 60px;
+  border-radius: 50%;
+  margin-left: 0px;
+  margin-top: 4px;
+  margin-bottom: 10px;
+  border: 2px solid black;
+}
+.newPostText{
+  margin-left: 30px;
+  margin-top: 15px;
+  border: 2px solid lightgrey;
+  width: 650px;
+  height: 50px;
+  border-radius: 15px;
+}
+.newPostText:focus{
+  outline: 2px solid #0066CC;
+}
+.newPostUpper{
+  display: flex;
+}
+.PostButton{
+  margin-left: 690px;
+  border: 0px;
+  border-radius: 10px;
+  width: 70px;
+  font-size: 18px;
+  height: 35px;
+  background-color:  #0066CC;
+  color: white;
+  margin-top: 0px;
+}
+.PostButton:hover{
+  text-decoration: underline;
+  cursor: pointer;
+}
+.photoButton{
+  width: 90px;
+  height:30px;
+  border: 2px solid lightgrey;
+  border-radius: 20px;
+  font-size: 20px;
+  margin-left: 150px;
+  padding: 15px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  background-color: lightgreen;
+}
+.photoButton:hover{
+  background-color: greenyellow;
+  cursor: pointer;
+}
+.videoButton{
+  width: 90px;
+  height: 30px;
+  border: 2px solid lightgrey;
+  border-radius: 20px;
+  padding: 10px;
+  font-size: 20px;
+  margin-left: 20px;
+  padding: 15px;
+  background-color: lightpink;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.videoButton:hover{
+  background-color: palevioletred;
+  cursor: pointer;
+}
+.jobButton{
+  width: 90px;
+  height: 30px;
+  border: 2px solid lightgrey;
+  border-radius: 20px;
+  padding: 10px;
+  font-size: 20px;
+  margin-left: 20px;
+  padding: 15px;
+  background-color: lightgoldenrodyellow;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.jobButton:hover{
+  background-color: yellow;
+  cursor: pointer;
+}
+.lowerSection{
+  display: flex;
+  width: 840px;
+  margin-top: 20px;
+  border-top: 2px solid lightgrey;
+  border-bottom: 2px solid lightgrey;
+}
+.moreSec{
+  margin-top: 15px;
+  margin-bottom: 15px;
+  width: 90px;
+  height: 30px;
+  border: 2px solid lightgrey;
+  border-radius: 20px;
+  padding: 10px;
+  font-size: 20px;
+  margin-left: 20px;
+  padding: 15px;
+  background-color: lightsalmon;
+}
+.moreSec:hover{
+  background-color: orangered;
+  cursor: pointer;
+}
+.newUpind{
+  display: inline;
+}
+.feedDp {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.feedName {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+}
+
+.userHeadline {
+  font-size: 0.9rem;
+  color: gray;
+}
+
+.feedText {
+  font-size: 1rem;
+  margin: 10px 0;
+}
+
+.feedPostImg {
+  max-width: 100%;
+  border-radius: 10px;
+  margin-top: 10px;
+}
