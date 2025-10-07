@@ -1,0 +1,256 @@
+
+nav{
+    border-radius: 10px;
+    display: flex;
+    height: 60px;
+    background-color: white;
+}
+img{
+    margin-left: 2%;
+    padding: 6px;
+    cursor: pointer;
+}
+.topInput{
+    margin-top: 10px;
+    border-radius: 8px;
+    border: 1.5px solid lightgrey;
+    margin-left: 2px;
+    height: 15px;
+    width: 290px;
+}
+.topInput:focus{
+    outline: 2px solid #0A66C2;
+}
+.navPremium{
+    width: 130px;
+    background-color: white;
+    border: 0px;
+    cursor: pointer;
+}
+.navPremium:hover{
+    background-color: darkgrey;
+}
+.navHome{
+    background-color: white;
+    border: 0px solid lightgray;
+    cursor: pointer;
+    width: 80px;
+    margin-left: 30px;
+}
+.navHome:hover{
+    background-color: darkgrey;
+}
+.navNoti:hover{
+    background-color: darkgrey;
+}
+.navJobs:hover{
+    background-color: darkgrey;
+}
+.navMessage:hover{
+    background-color: darkgrey;
+}
+.navNoti{
+    cursor: pointer;
+    background-color: white;
+    border: 0px solid lightgray;
+    width: 120px;
+}
+.navJobs{
+    
+    width: 100px;
+    cursor: pointer;
+    background-color: white;
+    border: 0px solid lightgray;
+}
+.navMessage{
+    
+    width: 100px;
+    cursor: pointer;
+    background-color: white;
+    border: 0px solid lightgray;
+}
+
+.navEnt:hover{
+    background-color: darkgrey;
+}
+.navEnt{
+    cursor: pointer;
+    background-color: white;
+    border: 0px;
+    width: 140px;
+}
+.notiDrop{
+    position:absolute;
+    height: 350px;
+    display: block;
+    border: 1px solid lightgrey;
+    width:400px;
+    margin-top:55px;
+    overflow-y: auto;
+    margin-left: 500px;
+    border-radius: 15px;
+    background-color:white;
+}
+.navDropItem{
+    display: block;
+    color: black;
+    height: 40px;
+    padding: 10px;
+    width: 360px;
+    border: 1px solid black;;
+    text-decoration-line:none;
+}
+.navDropItem:hover{
+    background-color: lightgray;
+    
+    text-decoration: underline;
+}
+.msgDropDownMenu{
+    
+    position:absolute;
+    height: 350px;
+    width:240px;
+    border: 1px solid lightgray;
+    margin-top:55px;
+    overflow-y: auto;
+    margin-left: 700px;
+    border-radius: 15px;
+    background-color:white;
+}
+.msgDropItem{
+    display: block;
+    color: black;
+    height: 40px;
+    padding: 10px;
+    width: 200px;
+    border: 1px solid lightgrey;
+    text-decoration-line:none;
+}
+.msgDropItem:hover{
+    background-color: lightgrey;
+    
+    text-decoration: underline;
+}
+.jobDropDown{
+    position:absolute;
+    height: 350px;
+    width:190px;
+    border: 1px solid lightgray;
+    margin-top:55px;
+    overflow-y: auto;
+    margin-left: 640px;
+    border-radius: 15px;
+    background-color:white;
+}
+.jobDropItem{
+     display: block;
+    color: black;
+    height: 40px;
+    padding: 10px;
+    width: 150px;
+    border: 1px solid lightgrey;
+    text-decoration-line:none;   
+}
+.jobDropItem:hover{
+    background-color: lightgrey;
+    
+    text-decoration: underline;
+}
+.jobApply{
+    background-color: #cc99ff;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+}
+.jobIgnore{
+    margin-left: 10px;
+    background-color: #cc99ff;
+    
+    border: 1px solid lightgray;
+    border-radius: 10px;
+}
+.jobApply:active{
+    background-color: blueviolet;
+}
+.jobIgnore:active{
+    background-color: blueviolet;
+}
+.navLogOut{
+    background-color: white;
+    border: 0px;
+    cursor: pointer;
+}
+.navLogOut:hover{
+    background-color: darkgrey;
+}
+.navMore{
+    width: 50px;
+    background-color: white;
+    border: 0px;
+    cursor: pointer;
+}
+.navMore:hover{
+    background-color: darkgray;
+}
+.moreDrop{
+    position:absolute;
+    height: 300px;
+    width:190px;
+    border: 1px solid lightgray;
+    margin-top:55px;
+    overflow-y: auto;
+    margin-left: 1070px;
+    border-radius: 15px;
+    background-color:white; 
+}
+.moreDropItem{
+    display: block;
+    color: black;
+    height: 20px;
+    padding: 10px;
+    width: 150px;
+    border: 1px solid lightgrey;
+    text-decoration-line:none;
+}
+.moreDropItem:hover{
+    background-color: lightgray;
+    
+    text-decoration: underline;
+}
+.searchButton{
+    width: 70px;
+    height: 38px;
+    margin-top: 11px;
+    border: 0px;
+    border-radius: 4px;
+    margin-left: 5px;
+    color: black;
+}
+.searchButton:hover{
+    background-color: lightgrey;
+    cursor: pointer;
+}
+.searchList{
+    position:absolute;
+    height: 350px;
+    display: block;
+    border: 1px solid lightgrey;
+    width:300px;
+    margin-top:55px;
+    overflow-y: auto;
+    margin-left: 100px;
+    border-radius: 15px;
+    background-color:white;
+}
+.navSearchItem{
+    display: block;
+    color: black;
+    height: 40px;
+    padding: 10px;
+    width: 260px;
+    border: 1px solid black;;
+    text-decoration-line:none;
+}
+.navSearchItem:hover{
+    background-color: lightgray;
+    text-decoration: underline;
+}

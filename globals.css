@@ -1,0 +1,102 @@
+/* login.css */
+
+body {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  background-color:#0066CC;
+}
+.passInp{
+  width: 10px;
+}
+.signInSection {
+  width: 380px;
+  margin: 70px auto;
+  background: #fff;
+  box-shadow: 0 10px 28px rgba(0,0,0,0.08), 0 2px 4px rgba(0,0,0,0.05);
+  border-radius: 16px;
+  padding: 32px 28px 24px 28px;
+}
+
+.logo {
+  font-size: 2.2rem;
+  font-weight: 700;
+  color: #0A66C2;
+  margin-bottom: 16px;
+  text-align: center;
+  margin-left: 10px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  font-size: 1rem;
+  margin-bottom: 0px;
+  color: #333;
+  font-weight: 500;
+}
+
+input[type="text"] {
+  padding: 12px 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccd6dd;
+  border-radius: 6px;
+  font-size: 1rem;;
+  transition: border-color 0.2s;
+}
+
+input[type="password"]{
+  width: 320px;
+  height: 20px;
+}
+input:focus {
+  border-color: #0A66C2;
+}
+
+.oldLogin, .newLogin {
+  padding: 12px 0;
+  background-color: #0A66C2;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 600;
+  border: none;
+  border-radius: 5px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  transition: background 0.22s;
+  box-shadow: 0 2px 8px rgba(10,102,194,0.08);
+}
+
+.oldLogin:hover, .newLogin:hover {
+  background-color: #004182;
+}
+
+p {
+  font-size: 0.97rem;
+  color: #777;
+  text-align: center;
+  margin: 12px 0 4px 0;
+}
+
+/* Responsive for mobile devices */
+@media (max-width: 480px) {
+  .signInSection {
+    width: 96vw;
+    padding: 18px 7vw;
+  }
+  .logo {
+    font-size: 1.5rem;
+  }
+  input {
+    font-size: 0.95rem;
+  }
+  .oldLogin, .newLogin {
+    font-size: 0.97rem;
+    padding: 10px 0;
+  }
+}

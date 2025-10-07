@@ -1,0 +1,54 @@
+/* phoneOtp.css */
+
+div{
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  max-width: 350px;
+  margin: 20px auto;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #fafafa;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 10px 8px;
+  margin: 10px 0 15px 0;
+  box-sizing: border-box;
+  border: 1.5px solid #ccc;
+  border-radius: 6px;
+  font-size: 16px;
+  outline-color: #0070f3;
+  transition: border-color 0.3s ease;
+}
+
+input[type="text"]:focus {
+  border-color: #0070f3;
+}
+
+.otpS {
+  width: 100%;
+  padding: 10px 0;
+  background-color: #0070f3;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.25s ease;
+}
+
+.otpS:hover {
+  background-color: #005bb5;
+}
+
+p {
+  font-size: 16px;
+  margin-bottom: 30px;
+  color: #333;
+  font-weight: 600;
+  text-align: center;
+  margin-right: 75px;
+
+}
